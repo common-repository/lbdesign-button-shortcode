@@ -1,0 +1,72 @@
+/* DEFAULT button shortcode styles */
+.lbdesign_button,
+.lbdesign_button:hover,
+.lbdesign_button:focus,
+.lbdesign_button:active,
+.lbdesign_button.active {
+  text-decoration: none; }
+
+.lbdesign_button {
+  padding: 0.625em 0.9375em;
+  display: inline-block;
+  background: #777;
+  color: white;
+  line-height: inherit;
+  border-bottom: none; }
+  .lbdesign_button:hover, .lbdesign_button:focus {
+    background: #5e5e5e;
+    color: #fff; }
+
+/* SIZES */
+.lbdesign_small {
+  font-size: 85%; }
+
+.lbdesign_large {
+  font-size: 115%; }
+
+.lbdesign_xlarge {
+  font-size: 125%; }
+
+/* TYPES */
+.lbdesign_primary {
+  background: #226CFF; }
+  .lbdesign_primary:hover, .lbdesign_primary:focus {
+    background: #0050ee; }
+
+.lbdesign_warning {
+  background: #FF2247; }
+  .lbdesign_warning:hover, .lbdesign_warning:focus {
+    background: #ee0028; }
+
+.lbdesign_highlight {
+  background: #FFB624; }
+  .lbdesign_highlight:hover, .lbdesign_highlight:focus {
+    background: #f0a000; }
+
+.lbdesign_info {
+  background: #FFDA22; }
+  .lbdesign_info:hover, .lbdesign_info:focus {
+    background: #eec600; }
+
+.lbdesign_action {
+  background: #4FBE00; }
+  .lbdesign_action:hover, .lbdesign_action:focus {
+    background: #3a8b00; }
+
+/* STYLES */
+.lbdesign_rounded {
+  border-radius: 0.3125em; }
+
+.lbdesign_pill {
+  border-radius: 2em; }
+
+.lbdesign_block {
+  display: block;
+  text-align: center; }
+
+.lbdesign_full_width {
+  display: block;
+  width: 100%;
+  text-align: center; }
+
+/*# sourceMappingURL=lbdesign_button_shortcode.css.map */
